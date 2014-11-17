@@ -1,0 +1,233 @@
+html {
+	position: relative;
+}
+
+html,body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.container {
+	width: 1000px;
+	height: auto;
+	min-height: 100%;
+	margin: auto;
+	background-color: #8B8484;
+	background-image: url('../img/fablab.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+
+div.title {
+	text-align: center;
+	padding: 18px 20px;
+	font-family: helvetica;
+	font-size: 25px;
+	color: #FFFFFF;
+	background-color:rgba(0,0,0,0.8);	
+}
+
+div.title h1 {
+	margin: 0px;
+}
+
+div.login ul {
+	border-left: solid;
+	border-right: solid;
+	border-bottom: solid;
+	border-width: 1px;
+	font-family: helvetica;
+	margin: 0px;
+	padding: 10px 10px;
+	height: 25px;
+	background-color: #FFFFFF;
+}
+
+div.login ul li {
+	padding: 0px 3px;
+	list-style: none;
+	float: left;
+}
+
+div.login ul li#admission {
+	padding-left: 40px;
+}
+
+div.login ul li#login {
+	padding-left: 50px;
+	padding-right: 3px;
+}
+
+div.login ul li#register {
+	padding-left: 5px;
+	padding-right: 3px;
+}
+
+div.wrap {
+	background-color: #EBE9E9;
+	overflow:hidden;
+	font-family: helvetica;
+	width: 1000px;
+	height: auto;
+	min-height: 100%;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+div.header {
+	overflow: hidden;
+	color: #FFFFFF;
+	background-color: #8B8484;
+	width: 100%;
+}
+
+div.header div.upper {
+	height: 40px;
+	background-color: #000000;
+}
+
+div.header div.upper p {
+	margin: 5px 0px 0px 335px;
+	padding: 0px;
+	padding-top: 5px;
+	float: right;
+}
+
+div.header div.upper p img {
+	position: relative;
+	right: 85px;
+	bottom: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+div.header div.upper p a {
+	color: #FFFFFF;
+	padding-left: 30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+div.header p.title {
+	padding-left: 23px;
+	padding-top: 25px;
+	margin: 0px;
+	float: left;
+	font-size: 60px;
+}
+
+div.header p.title a {
+	color: #FFFFFF;
+}
+
+div.header a {
+	text-decoration: none;
+}
+
+div.header img {
+	float: right;
+}
+
+ul.studentNav, ul.staffNav {
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+	width: 100%;
+	height: 40px;
+	float: right;
+}
+
+ul.studentNav li a, ul.staffNav li a {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+ul.studentNav img {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	bottom: 5px;
+	right: 2px;
+	float: left;
+}
+
+ul.studentNav li {
+	list-style: none;
+	margin: 0px;
+	padding: 10px 72px;
+	float: left;
+}
+
+ul.staffNav li {
+	list-style: none;
+	margin: 0px;
+	padding: 10px 60px;
+	float: left;
+}
+
+ul.staffNav img {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	bottom: 5px;
+	right: 2px;
+	float: left;
+}
+
+div.content {
+	position: relative;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-bottom: 100px
+}
+
+div.content p.heading {
+	text-align: center;
+	font-size: 25px;
+	margin: 0px;
+	padding: 20px 0px;
+}
+
+
+div.content p.heading {
+	padding-top: 45px
+}
+
+div.content table.attendance {
+	margin: auto;
+}
+
+div.content p#attendadd {
+	margin-left: 150px;
+}
+
+div.footer {
+	margin: auto;
+	margin-top: -80px;
+	width: 1000px;
+	height: 80px;
+	background-color: #8B8484;
+	position: relative;
+	overflow: hidden;
+}
+
+div.footer p {
+	font-family: helvetica;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 20px;
+}
+
